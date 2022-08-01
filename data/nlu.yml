@@ -1,0 +1,167 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: question_weather
+  examples: |
+    - how is the weather in [Hà Nội](city) today?
+    - What is the weather in [TP.HCM](city) tomorrow?
+    - What is the weather like in [An Giang](city) the day after tomorrow?
+    - What is the weather like in [Cần Thơ](city)?
+    - How is the weather in [Bến Tre](city)?
+    - What is the weather in [Đồng Nai](city)?
+ 
+- lookup: city
+  examples: |
+    - TP.HCM
+    - Hà Nội
+    - Đà Nẵng
+    - Cần Thơ
+    - Nha Trang
+    - Hải Phòng
+    - Vinh
+    - Sơn La
+    - Việt Trì
+    - Pleicu
+    - An Giang
+    - Bình Định
+    - Bắc Giang
+    - Bắc Ninh
+    - Bắc Cạn
+    - Bình Thuận
+    - Bình Dương
+    - Bến Tre
+    - Bạc Liêu
+    - Bình Phước
+    - Cà Mau
+    - Cao Bằng
+    - Điện Biên
+    - Đắk Nông
+    - Đồng Nai
+    - Đắk Lắk
+    - Đà Lạt
+    - Đồng Tháp
+    - Hải Dương
+    - Hòa Bình
+    - Hà Tĩnh
+    - Hưng Yên
+    - Hậu Giang
+    - Hà Tây
+    - Hà Giang
+    - Kiên Giang
+    - Kon Tum
+    - Lào Cai
+    - Lạng Sơn
+    - Long An
+    - Lai Châu
+    - Ninh Thuận
+    - Nam Định
+    - Ninh Bình
+    - Phủ Lý
+    - Phú Yên
+    - Quảng Nam
+    - Quảng Ninh
+    - Quảng Ngãi
+    - Quảng Bình
+    - Quảng Trị
+    - Sóc Trăng
+    - Tuyên Quang
+    - Thái Nguyên
+    - Thanh Hóa
+    - Tây Ninh
+    - Huế
+    - Tiền Giang
+    - Thái Bình
+    - Yên Bái
+    - Vĩnh Phúc
+    - Vũng Tàu
+    - Vĩnh Long
